@@ -8,7 +8,10 @@
     "email": "dolan_miu@hotmail.com",
     "url": "http://www.dolan.bio"
   },
-  "repository": "dolanmiu/office-clippy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolanmiu/office-clippy"
+  },
   "license": "MIT",
   "files": [
     "index.js",
@@ -41,5 +44,30 @@
   },
   "scripts": {
     "test": "grunt"
-  }
+  },
+  "gitHead": "6405e01dfbf9837769a933f7398f7276f1da44e9",
+  "bugs": {
+    "url": "https://github.com/dolanmiu/office-clippy/issues"
+  },
+  "_id": "office-clippy@0.0.8",
+  "_shasum": "996e86a1c50f7c89e2a507e80ad816963121a3e6",
+  "_from": "office-clippy@latest",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "dolanmiu",
+    "email": "dolan_miu@hotmail.com"
+  },
+  "dist": {
+    "shasum": "996e86a1c50f7c89e2a507e80ad816963121a3e6",
+    "tarball": "https://registry.npmjs.org/office-clippy/-/office-clippy-0.0.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "dolanmiu",
+      "email": "dolan_miu@hotmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/office-clippy/-/office-clippy-0.0.8.tgz"
 }

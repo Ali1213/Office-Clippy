@@ -84,6 +84,37 @@ lastModifiedBy
 revision
 ```
 
+#### 增加功能
++ 增加缩进
+    举例：
+    ```
+    var docx = officeClippy.docx;
+    var paragraph = docx.createParagraph();
+    paragraph.addText("随便写点什么").addIndent(4);
+    ```//4代表2个中文汉字的缩进
++ 增加图片
+    举例：
+    ```
+    var docx = officeClippy.docx;
+    var d = this.docx.create();
+    var paragraph = docx.createParagraph();
+    var str = docx.createImage(d,imageInfo.path,imageInfo.width,imageInfo.height);
+    paragraph.addText(str);
+    d.addParagraph(paragraph)
+    ```
++ 增加带链接的文本
+    举例:
+    ```
+    var docx = officeClippy.docx;
+    var d = docx.create();
+    var str =docx.createLink(d,link,text);
+    var paragraph = docx.createParagraph();
+    paragraph.addText(str);
+    d.addParagraph(paragraph)
+
+    ```
+
+
 You can mix and match whatever properties you want, or provide no properties.
 
 ## Create Paragraph
@@ -178,7 +209,7 @@ text.bold();
 
 #### Italics
 ```js
-text.italic();
+text.italics();
 ```
 
 #### Underline
